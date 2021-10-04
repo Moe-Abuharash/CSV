@@ -33,7 +33,7 @@ print(dates)
 
 fig = plt.figure()
 
-'''
+
 plt.title("Daily high temperatures, July 2018", fontsize = 16)
 plt.xlabel('', fontsize = 12)
 plt.ylabel("Temperature (F)", fontsize = 12)
@@ -47,7 +47,7 @@ plt.fill_between(dates, highs, lows, facecolor = 'blue', alpha = 0.1)
 fig.autofmt_xdate()
 
 plt.show()
-'''
+
 
 plt.subplot(2,1,1)
 plt.plot(dates, highs, c='red')
